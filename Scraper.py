@@ -11,6 +11,7 @@ def main():
                          passwd=Config.DBPASS, # your password
                          db=Config.DBNAME) # name of the data base
 
+
     cur = db.cursor()
 
     cur.execute("SELECT * FROM User")
